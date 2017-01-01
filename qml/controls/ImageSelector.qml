@@ -24,8 +24,8 @@ import QtQuick.Dialogs 1.2
 RowLayout {
     id: imageSelector
 
-    property string path: ""
-    property string folder//: fileDialog.shortcuts.pictures
+    property string path: "qrc:/resources/images/particle.png"
+    property string folder: "qrc:/resources/images"// fileDialog.shortcuts.pictures
 
     TextField {
         Layout.fillWidth: true
@@ -46,7 +46,7 @@ RowLayout {
 
     FileDialog {
         id: fileDialog
-        modality: Qt.ApplicationModal
+        //modality: Qt.ApplicationModal
         title: "Please choose a file"
         nameFilters: [ "Image files (*.jpg *.png)" ]
         onAccepted: {
