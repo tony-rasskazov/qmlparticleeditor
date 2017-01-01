@@ -1,5 +1,7 @@
 /****************************************************************************
 **
+** Copyright (C) 2017 Tony Rasskazov
+**
 ** Copyright (C) 2013-2015 Oleg Yadrov
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,9 +25,9 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
     app.setApplicationName("QML Particle Editor");
-    app.setApplicationVersion("1.1.0");
-    app.setOrganizationName("wearyinside");
-    app.setOrganizationDomain("com.wearyinside.qmlparticleeditor");
+    app.setApplicationVersion("1.0.0");
+    app.setOrganizationName("insideout");
+    app.setOrganizationDomain("com.insideout.qmlparticleeditor");
 
     QQmlApplicationEngine engine(QUrl("qrc:/qml/main.qml"));
 

@@ -1,6 +1,7 @@
 /****************************************************************************
 **
 ** Copyright (C) 2013-2015 Oleg Yadrov
+** Copyright (C) 2017 Tony Rasskazov
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -22,7 +23,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Window 2.2
 import QtQuick.Particles 2.0
 import Qt.labs.settings 1.0
-import "scripts/ObjectManager.js" as ObjectManager
+//import "scripts/ObjectManager.js" as ObjectManager
 import "controls"
 import "windows"
 
